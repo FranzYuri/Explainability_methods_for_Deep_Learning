@@ -18,7 +18,7 @@ class Lime():
     def __init__(self, img, n_class, n_superpixels = 50, bandwidth_parameter=0.25):
         """
         Inputs
-            img:                    256 x 256 x 3 tensor (or array?)
+            img:                    128 x 128 x 3 tensor (or array?)
             n_class:                Which class to evaluate
             n_superpixels:          Number of superpixels, assumed 50(?)
             bandwidth_parameter:    float, as specified on the paper
