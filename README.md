@@ -1,7 +1,7 @@
 # Post-Hoc Explainability for Deep Learning
 
 This project implements three post-hoc explainability methods — **DeconvNet**, **Grad-CAM**, **LIME** and **Occlusion Sensitivity** — to interpret Convolutional Neural Networks (CNNs) trained on medical imaging datasets.  
-It adapts **AlexNet** to handle **128×128 MedMNIST datasets** (PathMNIST, BloodMNIST, DermaMNIST), providing clear visual insights into how the model makes decisions.  
+It adapts **AlexNet** to handle **128×128 MedMNIST datasets** (PathMNIST, BloodMNIST), providing clear visual insights into how the model makes decisions.  
 > **Note:** This work was developed as a group project at Télécom Paris.
 
 ---
@@ -25,7 +25,6 @@ We adapted AlexNet to the MedMNIST datasets and implemented visualization tools 
 ## Results
 - **PathMNIST:** ~91% test accuracy  
 - **BloodMNIST:** ~97% test accuracy  
-- **DermaMNIST:** ~77% test accuracy  
 - Visualizations clearly identify the image regions most influential to CNN predictions, improving model interpretability and trust.  
 
 ---
