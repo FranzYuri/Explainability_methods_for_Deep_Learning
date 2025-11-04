@@ -24,8 +24,8 @@ We adapted AlexNet to the MedMNIST datasets and implemented visualization tools 
 
 ## Results
 - **PathMNIST:** ~91% test accuracy  
-- **BloodMNIST:** ~97% test accuracy  
-- **DermaMNIST:** ~77% test accuracy  
+- **BloodMNIST:** ~97% test accuracy
+- **DermaMNIST:** ~77% test accuracy
 - Visualizations clearly identify the image regions most influential to CNN predictions, improving model interpretability and trust.  
 
 ---
